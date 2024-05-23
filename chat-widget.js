@@ -113,6 +113,10 @@
     }
   }  
 
+  // Add API information
+  let apiKey = window.alpineAI.apiKey;
+  let apiUrl = window.alpineAI.baseURL + '';
+
   function onUserRequest(message) {
     // Handle user request here
     console.log('User request:', message);
